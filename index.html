@@ -85,8 +85,12 @@
     margin-right: 24px;
   }
 
-  .card-icon.attendance {
+  .card-icon.checkin {
     background: linear-gradient(135deg, #7B6796, #9B87B6);
+  }
+
+  .card-icon.checkout {
+    background: linear-gradient(135deg, #5B8CBF, #7AABDB);
   }
 
   .card-icon.expense {
@@ -128,11 +132,19 @@
 
   <div class="cards">
 
+    <!-- 上班打卡 -->
     <a class="card" href="https://www.kdocs.cn/wo/sl/v14NSMM" target="_blank">
-      <div class="card-icon attendance">📍</div>
+      <div class="card-icon checkin">☀️</div>
       <div class="card-body">
-        <div class="title">考勤打卡</div>
-        <div class="desc">上班签到 下班签退</div>
+        <div class="title">上班打卡</div>
+      </div>
+    </a>
+
+    <!-- 下班打卡 -->
+    <a class="card" href="https://www.kdocs.cn/wo/sl/v1bbIbq" target="_blank">
+      <div class="card-icon checkout">🌙</div>
+      <div class="card-body">
+        <div class="title">下班打卡</div>
       </div>
     </a>
 
